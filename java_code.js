@@ -52,3 +52,54 @@ function helloWorld(lang){
 // console.log(helloWorld("poop"));
 
 
+function assignGrade(score){
+    if (score <50){
+        return "F"
+    }
+    else if (score >=50 && score <=59){
+        return "D";
+    }
+    else if (score >=60 && score <=69){
+    return "C";
+    }
+    else if (score >=70 && score <=79){
+    return "B";
+    }
+    else if (score >=80 && score <=100){
+    return "A";
+    }
+}
+
+// console.log(assignGrade(33))
+// console.log(assignGrade(55))
+// console.log(assignGrade(66))
+// console.log(assignGrade(77))
+// console.log(assignGrade(99))
+
+// for (var x = 0; x<=20; x=x+1){
+//     if ((x % 2 == 0) && (x!=0)){
+//         console.log(+x+ " is even")
+//     }
+//     else if (x % 2 == 1){
+//         console.log(+x+ " is odd")
+//     }
+//     else{
+//         console.log(x)
+//     }
+// }
+
+// var myArray = ["Grilled Cheese", "Chicken","Other fun stuff", "oh and more fun stuff"]
+// for (var i=0; i<myArray.length;i++){
+//     if (i==0){
+//         console.log("my first choice is "+myArray[i]+".")
+//     }
+//     else if (i==1){
+//         console.log("my second choice is "+myArray[i]+".")
+//     }
+//     else if (i==2){
+//         console.log("my third choice is "+myArray[i]+".")
+//     }
+//     else if (i==3){
+//         console.log("my fourth choice is "+myArray[i]+".")
+//     }
+// }
