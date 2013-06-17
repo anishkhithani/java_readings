@@ -103,3 +103,15 @@ function assignGrade(score){
 //         console.log("my fourth choice is "+myArray[i]+".")
 //     }
 // }
+
+var recipe={
+    title: "Butter Chicken",
+    serving: 4,
+    ingredients: ["chicken", "tandoori", "onions", "cilantro"],
+}
+console.log(recipe.title)
+console.log("Serves: "+recipe.serving)
+console.log("Ingredients:")
+for (var i=0;i<recipe.ingredients.length; i++){
+    console.log(recipe.ingredients[i]);
+}
