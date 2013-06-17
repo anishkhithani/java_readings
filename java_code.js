@@ -21,3 +21,34 @@ function calculateSupply(age, maxAge, perDay){
     console.log(message)
 }
 // calculateSupply(25,200,2)
+
+function greaterNum(num1, num2){
+    if (num1 >num2) {
+        console.log("The greater number of "+num1+" and " +num2+ " is " +num1+ ".");
+    }
+    else{
+        console.log("The greater number of "+num1+" and " +num2+ " is " +num2+ ".");
+    }
+}
+// greaterNum(5,10)
+
+function helloWorld(lang){
+    if (lang=="en"){
+        return "Hello world!";
+    }
+    else if (lang=="es"){
+        return "Hola";
+    }
+    else if (lang=="fr"){
+        return "Bonjour";
+    }
+    else {
+        return "Hello world!";
+    }
+}
+// console.log(helloWorld("en"));
+// console.log(helloWorld("es"));
+// console.log(helloWorld("fr"));
+// console.log(helloWorld("poop"));
+
+
